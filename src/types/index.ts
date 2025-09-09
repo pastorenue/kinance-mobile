@@ -140,6 +140,7 @@ export type MainTabParamList = {
   Budgets: undefined;
   Transactions: undefined;
   Receipts: undefined;
+  OCR: undefined;
   Profile: undefined;
 };
 

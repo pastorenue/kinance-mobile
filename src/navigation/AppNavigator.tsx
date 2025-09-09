@@ -1,3 +1,5 @@
+// Import OCRScreen
+import OCRScreen from '../screens/receipts/OCRScreen';
 import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -59,6 +61,9 @@ function MainNavigator() {
             case 'Profile':
               iconName = focused ? 'person' : 'person-outline';
               break;
+            case 'OCR':
+              iconName = focused ? 'scan' : 'scan-outline'; // Assuming an icon for OCR
+              break;
             default:
               iconName = 'home-outline';
           }
@@ -96,6 +101,11 @@ function MainNavigator() {
         name="Receipts" 
         component={ReceiptsScreen}
         options={{ title: 'Receipts' }}
+      />
+      <MainTab.Screen 
+        name="OCR" 
+        component={OCRScreen}
+        options={{ title: 'Scan Receipt' }}
       />
       <MainTab.Screen 
         name="Profile" 

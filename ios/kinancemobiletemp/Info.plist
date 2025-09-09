@@ -72,9 +72,11 @@
       <string>UIInterfaceOrientationLandscapeLeft</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
-    <key>UIUserInterfaceStyle</key>
-    <string>Light</string>
-    <key>UIViewControllerBasedStatusBarAppearance</key>
-    <false/>
+  <key>UIUserInterfaceStyle</key>
+  <string>Light</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>This app needs access to your photo library to allow you to select and scan grocery receipts.</string>
+  <key>UIViewControllerBasedStatusBarAppearance</key>
+  <false/>
   </dict>
 </plist>

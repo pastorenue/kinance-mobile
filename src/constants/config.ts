@@ -1,5 +1,6 @@
 export const API_CONFIG = {
-  BASE_URL: __DEV__ ? 'http://localhost:8080' : 'https://your-production-api.com',
+  // BASE_URL: __DEV__ ? 'http://localhost:8080' : 'https://your-production-api.com',
+  BASE_URL: 'http://localhost:8080',
   API_VERSION: 'v1',
   TIMEOUT: 10000,
 } as const;

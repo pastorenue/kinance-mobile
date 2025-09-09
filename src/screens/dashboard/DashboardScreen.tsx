@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
   },
   greeting: {
-    fontSize: 24,
+    fontSize: 21,
     fontWeight: 'bold',
     color: '#333',
   },
